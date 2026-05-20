@@ -1,0 +1,33 @@
+@"
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments (DO NOT UPLOAD)
+.venv/
+venv/
+env/
+ENV/
+
+# Models (large files)
+models/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep all your source code and data files
+!*.py
+!*.txt
+!*.csv
+!*.html
+!src/
+!templates/
+!data/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
