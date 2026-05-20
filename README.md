@@ -62,6 +62,9 @@ python train_script.py
 - Model files in `models/` are not tracked
 
 ## Authors
+Oualid Dersaoui  
+Aya Baali  
+Assia Bouhali
 Sara Elgad
 
 ## License
